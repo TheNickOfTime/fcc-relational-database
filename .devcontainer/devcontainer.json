@@ -1,0 +1,6 @@
+{
+	"name": "fcc-relational-database",
+	"image": "mcr.microsoft.com/devcontainers/base:bookworm",
+	"onCreateCommand": "sudo apt update && sudo apt install postgresql postgresql-client -y && sudo service postgresql start",
+	"postStartCommand": "code -r README.md"
+}
